@@ -1,0 +1,76 @@
+body{
+
+    background-color: rgb(226, 226, 226);
+    margin-top: 2%;
+    padding-bottom: 30px;
+
+}
+
+textarea{
+
+    width: 100%;
+
+}
+
+fieldset{
+
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    
+}
+
+.navbar{
+
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: -1rem;
+    
+}
+
+#NavbarContent{
+
+    padding-left: 20px;
+
+}
+
+.card{
+
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 1rem;
+    border-radius: 20px;
+    box-shadow: 5px -5px rgba(120, 140, 255, 0.425);
+    
+}
+
+#MainContent{
+
+    background-color: white;
+
+}
+
+#Main{
+
+    margin: 2rem;
+    border: 50px;
+    border-color: black;    
+
+}
+
+.form-control, .form-select, textarea{
+
+    width: 90%;
+
+}
+
+.table{
+
+    width: 95%;
+
+}
+
+#collapseExample{
+
+    margin-top: 2rem;
+
+}
