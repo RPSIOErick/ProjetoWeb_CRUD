@@ -74,3 +74,34 @@ fieldset{
     margin-top: 2rem;
 
 }
+
+#TableWarning{
+
+    display: none;
+
+}
+
+#DBActions a{
+
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 400px){
+
+    #Main{
+
+        margin: 0px;
+        margin-top: 2rem;
+        overflow-x: auto;
+
+    }
+
+    #TableWarning{
+
+        display: inline-block;
+        font-size: 12px;
+
+    }
+
+}

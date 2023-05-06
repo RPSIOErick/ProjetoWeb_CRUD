@@ -40,7 +40,8 @@
 
             @yield('content')
 
-        </div>
+        </div>        
+
     </div>
     </div>
 

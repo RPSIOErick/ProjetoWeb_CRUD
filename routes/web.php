@@ -15,8 +15,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//ROTA DA PÁGINA INICIAL
 Route::get('/', [ServicoController::class, 'create']);
 
+//ROTA DE CONSULTA
+Route::get('/consulta', [ServicoController::class, 'consulta']);
+
+//ROTA PARA O FORMULÁRIO PARA EDIÇÃO
+Route::get('/editar/{id}', [ServicoController::class, 'edit']);
+
+//ROTA PARA ATIVAR A FUNCTION QUE SOBE OS DADOS PARA O BANCO
 Route::post('/store', [ServicoController::class, 'store']);
 
-Route::get('/consulta', [ServicoController::class, 'consulta']);
+//ROTA PARA ATIVAR A FUNCTION QUE ATUALIZA OS DADOS NO BANCO
+Route::put('/atualizar/{id}', [ServicoController::class, 'update']);
+
+//ROTA PARA EXCLUIR DADOS DE UM ID EM ESPECÍFICO
+Route::delete('/excluir/{id}', [ServicoController::class, 'destroy']);
